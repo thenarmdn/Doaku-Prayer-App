@@ -1,4 +1,3 @@
-// filepath: eas.json
 {
   "cli": {
     "appVersionSource": "remote"
