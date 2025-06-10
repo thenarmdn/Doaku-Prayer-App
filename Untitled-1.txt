@@ -1,0 +1,7 @@
+// filepath: eas.json
+{
+  "cli": {
+    "appVersionSource": "remote"
+  },
+  // ...existing config...
+}
