@@ -1,0 +1,29 @@
+{
+  "cli": {
+    "appVersionSource": "remote",
+    "version": {
+      "regex": "version:\\s+([0-9.]+)"
+    }
+  },
+  "build": {
+    "production": {
+      "android": {
+        "buildType": "app-bundle"
+      }
+    }
+  },
+  "expo": {
+    "android": {
+      "package": "com.thenarmdn.testtempo",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-xxxxxxxx~yyyyyyyyyy"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.thenarmdn.testtempo",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-xxxxxxxx~zzzzzzzzzz"
+      }
+    }
+  }
+}
